@@ -4,8 +4,12 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Exercise1.CalcFormula();
-            Exercise2.CalcA();
+            new Exercise1().CalcFormula();
+            
+            Exercise2 e2 = new Exercise2();
+            e2.CalcA();
+            e2.CalcB();
+            e2.CalcC();
         }
     }
 }

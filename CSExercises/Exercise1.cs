@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace CSExercises
 {
-    internal static class Exercise1
+    internal class Exercise1
     {
-        internal static void CalcFormula()
+        internal void CalcFormula()
         {
             const string errorMsg = "Не был введен аргумент.";
             
